@@ -5,7 +5,7 @@ function stringInvertida() {
     const botaonInverte = document.querySelector('.inverte');
     const palavraInvertida = document.querySelector('.palavraInvertida');
 
-    botaonInverte.addEventListener('click', function(e) {
+    botaonInverte.addEventListener('click', function (e) {
         const stringOriginal = inputInverte.value;
         const stringInvertida = inverteString(stringOriginal);
         palavraInvertida.innerHTML = `Palavra invertida: ${stringInvertida}`;

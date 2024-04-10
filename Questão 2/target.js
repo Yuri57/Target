@@ -3,7 +3,7 @@ function verificaFibonacci() {
     const botaoFibonacci = document.querySelector('.verificaFibonacci');
     const resultado = document.querySelector('.resultado');
 
-    botaoFibonacci.addEventListener('click', function(e) {
+    botaoFibonacci.addEventListener('click', function (e) {
         const numeroInformado = parseInt(inputFibonacci.value);
         const sequenciaFibonacci = fibonacci(numeroInformado);
         if (sequenciaFibonacci.includes(numeroInformado)) {
